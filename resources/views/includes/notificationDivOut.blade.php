@@ -1,0 +1,1 @@
+{{ session()->forget('flash_notification.message')}}

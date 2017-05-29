@@ -1,0 +1,30 @@
+{
+  "name": "vue-tables-2",
+  "description": "Vue.js 2 grid components",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "bootstrap",
+    "tables",
+    "grids"
+  ],
+  "homepage": "https://github.com/matfish2/vue-tables-2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "889ab2c947",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "889ab2c947b5ebae0be09c7968c50ca87263ab24"
+  },
+  "_source": "https://github.com/matfish2/vue-tables-2.git",
+  "_target": "*",
+  "_originalSource": "vue-tables-2",
+  "_direct": true
+}

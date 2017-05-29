@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+*{
+    font-family: 'poppins', san-serif;
+    font-weight: 400;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+    margin-bottom: 115px;
+}
+
+/* Navigation*/
+.ce--navbar{
+    padding-top: 16px;
+}
+.ce--button-signup.nav-item.nav-link.btn-primary{
+    color: #ffffff;
+}
+
+/* Hero/Jumbotron*/
+.jumbotron{
+    text-align: center;
+    color: #ffffff;
+    max-height: 225px;
+    margin-bottom: 0;
+}
+.jumbotron--home{
+    background: url("../images/hero-01-homepage.jpg") no-repeat center;
+}
+.jumbotron--helpguides_faqs{
+    background: url("../images/hero-02-helpguides_faqs.jpg") no-repeat center;
+}
+.jumbotron--blog{
+    background: url("../images/hero-03-blog.jpg") no-repeat center;
+}
+.jumbotron--company{
+    background: url("../images/hero-04-company.jpg") no-repeat center;
+}
+.jumbotron--contacts{
+    background: url("../images/hero-05-contacts.jpg") no-repeat center;
+}
+.jumbotron--pricing{
+    background: url("../images/hero-06-pricing.jpg") no-repeat center;
+}
+.jumbotron--careers{
+    background: url("../images/hero-07-careers.jpg") no-repeat center;
+}
+.jumbotron--signup{
+    background: url("../images/hero-08-signup.jpg") no-repeat center;
+}
+.jumbotron--login{
+    background: url("../images/hero-09-login.jpg") no-repeat center;
+}
+.jumbotron--title{
+    z-index: 20;
+}
+.jumbotron .lead{
+    font-weight: 500;
+    font-size: 12px;
+}
+.jumbotron .hero--title{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* Searchbar*/
+.ce--searchbar{
+    width: 100%;
+    height: 44px;
+    overflow: hidden;
+    margin: 5px auto;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
+@media (min-width: 768px) {
+    .ce--searchbar{
+        width: 75%;
+        margin-top: -22px;
+    }
+}
+.ce--searchbar-input.form-control{
+    width: 100%;
+    height: 44px;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    padding-right: 98px;
+}
+.ce--searchbar-button{
+    width: 90px;
+    margin-top: 3px;
+    margin-left: -93px;
+    float: left;
+}
+.ce--searchbar-help{
+    font-size: 12px;
+}
+
+/* Main Content*/
+.ce--main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer*/
+.ce--footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    padding: 12px 0;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+
+/* Cards*/
+.ce--plan-hakika{
+    box-shadow: 0 0 25px 0 rgba(0,0,0,0.3);
+}
+
+/* Utility helpers*/
+.ce--text-underline{
+    font-weight: 600;
+    text-decoration: underline;
+}
